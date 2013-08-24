@@ -1,0 +1,1 @@
+<td><a href="<?php echo sys_href($data['channelId'],'picture',$data['id'])?>"><img src="<?php echo $data['smallPic'];?>" /><br /><?php echo $data['title'];?></a></td>

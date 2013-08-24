@@ -1,0 +1,1 @@
+<li class="clearfix"><p><b>▪</b> <a href="<?php echo sys_href($data['channelId'],'list',$data['id'])?>"><?php echo $data['title']; ?> </a></p><span class="fr"><?php echo date('Y.m.d',strtotime($data['dtTime'])); ?></span></li>

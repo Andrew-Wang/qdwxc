@@ -1,0 +1,5 @@
+/*=========mf_gundong========*/
+/* #marquee1 */
+.gundong{width:920px;overflow:hidden;}
+.gundong ul li{float:left;width:150px;border:1px solid #ddd;}
+.gundong ul li img{display:block;}
