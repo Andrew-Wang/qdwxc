@@ -12,13 +12,21 @@
 *  此标签内置一递增变量 $i ,以方便制作各种样式的菜单, 此变量可在此文件中任意地方调用。;
 * 
 */
+
 $select ='class="select"';  //选中状态的样式，若无选中状态，可不添加。
 $target ='target="_blank"'; //外链则弹出新窗口，若不需弹出新窗口可清空此变量。
 $ico = ispic($data['originalPic'])?'<img src="'.$data['originalPic'].'" />':''; //栏目图标，可在后台栏目缩略图处上传
 $select = $params['id']==$data['id']?$select:''; 
 $target = $data['isTarget']?$target:'';
+
+// URGLY HACK CODE
+if (in_array($data['id'], array(5,6,11,17,20,25,16,12,13,18,21,22,26,27,28,65,66,67,68))) { 
+	$url = 'javascript:void(0)';
+	$l_style= 'cursor:default';
+	$target = "";
+}
 ?>
-<li><a href="<?php echo $url?>" <?php echo $target?>><?php echo $data['title'];?></a>
+<li><a href="<?php echo $url?>" <?php echo $target?> style="<?php echo $l_style; ?>"><?php echo $data['title'];?></a>
 	<?php if ($_GET['p'] == $data['id'] && $_GET['p'] == '47'): ?>
 		
 			<li class="subleft"><a href="?p=47#a1">公司简介</a></li>
