@@ -53,6 +53,7 @@ myFocus.config.extend({
 		txtHeight:0,//标题高度
 		thumbShowNum:4,//略缩图显示数目
 		thumbBtnHeight:0,//略缩图导航(prev/next)按钮的高度
-		thumbWidth:142//略缩图总宽度
+		thumbWidth:142,//略缩图总宽度
+		auto:false,
 	}
 });

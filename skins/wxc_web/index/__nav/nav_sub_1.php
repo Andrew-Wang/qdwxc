@@ -19,10 +19,27 @@ $select = $params['id']==$data['id']?$select:'';
 $target = $data['isTarget']?$target:'';
 ?>
 <li><a href="<?php echo $url?>" <?php echo $target?>><?php echo $data['title'];?></a>
-	<?php if ($data['id'] == '10'): ?>
-		<ul>
-			<li>test</li>
-			<li>test</li>
-		</ul>
+	<?php if ($_GET['p'] == $data['id'] && $_GET['p'] == '47'): ?>
+		
+			<li class="subleft"><a href="?p=47#a1">公司简介</a></li>
+			<li class="subleft"><a href="?p=47&mdtp=2#a1">差异化生意模式</a></li>
+			<li class="subleft"><a href="?p=47&mdtp=3#a1">企业公民</a></li>
+			<li class="subleft"><a href="?p=47&mdtp=4#a1">企业文化</a></li>
+			<li class="subleft"><a href="?p=47&mdtp=5#a1">历史与荣誉</a></li>
+		
+	<?php endif; ?>
+	<?php if ($_GET['p'] == $data['id'] && $_GET['p'] == '49'): ?>
+		
+			<li class="subleft"><a href="?p=49&mdtp=1#a">橡树湾学府系列</a></li>
+			<li class="subleft"><a href="?p=49&mdtp=2#a">橡树湾英伦系列</a></li>
+			<li class="subleft"><a href="?p=49&mdtp=3#a">凤凰城精品都市</a></li>
+			<li class="subleft"><a href="?p=49&mdtp=4#a">百万平米城中城</a></li>
+			<li class="subleft"><a href="?p=49&mdtp=5#a">特色高端作品</a></li>
+			<li class="subleft"><a href="?p=49&mdtp=6#a">低密度大平层作品</a></li>
+			<li class="subleft"><a href="?p=49&mdtp=7#a">住宅+区域商业</a></li>
+			<li class="subleft"><a href="?p=49&mdtp=8#a">万象城都市综合体</a></li>
+			<li class="subleft"><a href="?p=49&mdtp=9#a">住宅+欢乐颂</a></li>
+			
+		
 	<?php endif; ?>
 </li>

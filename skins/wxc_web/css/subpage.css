@@ -42,6 +42,7 @@ text-indent:-999em;}
 
 .sidebar{float:left;width:188px;}
 .sidebar .menu li{height:32px;line-height:32px;padding-left:72px;background:url(images/side_menu.png) no-repeat 0 -32px;}
+.sidebar .menu li.subleft{height:32px;line-height:32px;padding-left:84px;background:url(images/side_menu.png) no-repeat 12px -96px;}
 .sidebar .menu a{color:#cebb8e;}
 .sidebar .menu .current{background-position:0 0;}
 .sidebar .menu .current a{font-weight:bold;color:#e9797c;}
@@ -404,3 +405,4 @@ background:#977F59;}
 .wxh_huodong .list3 h4{color:#67563c;padding-bottom:8px;line-height:18px;}
 .wxh_huodong .list3 .time{display:block;font-weight:400;}
 .wxh_huodong h4 a{color:#67563c;font-size:13px;}
+/*左边菜单*/
