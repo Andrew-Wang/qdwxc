@@ -31,7 +31,7 @@ define('doccmsbirthday','2013-06-05');//此处如无需要请不要随意更改�
 define('EDITORSTYLE','kindeditor');
 //默认设置
 define('ABSPATH',dirname(__FILE__).'/../');
-define('ROOTPATH','/wxc'); //类似于 /xmlol (注意后面不带 /)
+define('ROOTPATH','/qdwxc'); //类似于 /xmlol (注意后面不带 /)
 define('VERSION','X2013 1.0.1221');
 $fileIndex 	= 'index.html';
 $fileCommon = 'common.html';

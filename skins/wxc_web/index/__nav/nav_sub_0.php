@@ -17,8 +17,14 @@ $target ='target="_blank"'; //外链则弹出新窗口，若不需弹出新窗�
 $ico = ispic($data['originalPic'])?'<img src="'.$data['originalPic'].'" />':''; //栏目图标，可在后台栏目缩略图处上传
 $select = $params['id']==$data['id']?$select:''; 
 $target = $data['isTarget']?$target:'';
+// URGLY HACK CODE
+if (in_array($data['id'], array(5,6,11,17,20,25,16,12,13,18,26,27,28,65,66,67,68))) { 
+	$url = 'javascript:void(0)';
+	$l_style= 'cursor:default';
+	$target = "";
+}
 ?>
 
 <li> 
-  <a href="<?php echo $url?>" <?php echo $target?>><?php echo $data['title'];?></a>
+  <a href="<?php echo $url?>" <?php echo $target?> style="<?php echo $l_style; ?>"><?php echo $data['title'];?></a>
 </li>

@@ -17,12 +17,17 @@ $target ='target="_blank"'; //外链则弹出新窗口，如不需要弹出新�
 
 if($params['id']!=$data['id'])if(sys_menu_info('id',true) != $data['id'])$select = '';
 $target = $data['isTarget']?$target:'';
-
+// URGLY HACK CODE
+if (in_array($data['id'], array(5,6,25))) { 
+  $url = 'javascript:void(0)';
+  $l_style= 'cursor:default';
+  $target = "";
+}
 /************** 样式正文 ************/
 ?>
 
 <li class="nav_li_<?php echo $i;?>">
-  <a href="<?php echo $url?>" <?php echo $target?> <?php echo $select?>><?php echo $data['title'];?></a>
+  <a href="<?php echo $url?>" <?php echo $target?> <?php echo $select?> style="<?php echo $l_style; ?>"><?php echo $data['title'];?></a>
     <?php
     if (!empty($subs[$data['id']]))
     {
