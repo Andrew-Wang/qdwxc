@@ -1,6 +1,26 @@
 .ui-header .ui-btn-text{font-size:11px;color:#9e7a44;}
 .ui-header .ui-title{margin:0;}
 .ui-content{padding:0;}
+.ui-body-e .ui-link:hover {
+color: #FFFFFF;
+}
+.ui-body-e .ui-link:visited {
+color: #FFFFFF;
+}
+.ui-body-e .ui-link {
+color: #FFFFFF;
+font-size:12px;
+text-shadow:none;
+}
+.ui-panel-inner ul li{
+line-height:26px;
+background: url(../images/arrow.png) no-repeat 0 10px;
+overflow: hidden;
+padding-left: 20px;
+width: 100%;
+margin: 0 auto;
+}
+
 .logo {width: 160px;height: 42px;padding: 3px 0 8px;margin:0;}
 .logo a {display: block;height: 80px;background: url(../images/logo.png) no-repeat 0 0;text-indent: -999em;}
 

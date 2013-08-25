@@ -24,7 +24,7 @@
 	<!-- leftpanel  -->
 	<div data-role="panel" id="leftpanel" data-position="left" data-display="push" data-theme="e">
 
-        <ul data-role="listview" data-inset="true" data-theme="e">
+        <ul data-inset="true" data-theme="e">
 			<?php global $menus,$subs; ($subs[$_GET['p']]==null)?nav_sub($menus[$_GET['p']]['parentId'],1,0):nav_sub($_GET['p'],1,0); //侧导航调用的标签?>
 		</ul>
 	</div><!-- /leftpanel -->
