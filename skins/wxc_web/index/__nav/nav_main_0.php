@@ -22,6 +22,8 @@ if (in_array($data['id'], array(5,6,25))) {
   $url = 'javascript:void(0)';
   $l_style= 'cursor:default';
   $target = "";
+}else {
+  $l_style = 'cursor:pointer';
 }
 /************** 样式正文 ************/
 ?>

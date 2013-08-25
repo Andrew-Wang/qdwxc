@@ -75,7 +75,7 @@
     <!-- /header -->
 
     <div id="content">
-        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/banner_know.jpg" alt=""></div>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/wanxiangzhinan.jpg" alt=""></div>
 
 
         <div class="bodymain know clearfix">

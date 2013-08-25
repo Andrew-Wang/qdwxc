@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0042)http://www.themixc.com/wxc/MixClub/21.aspx -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -69,9 +69,31 @@
     <!-- /header -->
 
     <div id="content">
+        <?php global $menus; if (isset($_GET['p'])): ?>
+        <?php if($_GET['p'] == 7 || $menus[$_GET['p']]['parentId'] == 7): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/huarunjituan.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 8 || $menus[$_GET['p']]['parentId'] == 8): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/huarunjituan.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 9 || $menus[$_GET['p']]['parentId'] == 9): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/sd_huarunjituan.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 42 || $menus[$_GET['p']]['parentId'] == 42): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/wanxiangjingcui.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 43 || $menus[$_GET['p']]['parentId'] == 43): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/huarunzhongxin.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 10 || $menus[$_GET['p']]['parentId'] == 10): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/wanxiangzhinan.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 14 || $menus[$_GET['p']]['parentId'] == 14): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/jingcaihuodong.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 5 || $menus[$_GET['p']]['parentId'] == 5): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/wanxianghui.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 6 || $menus[$_GET['p']]['parentId'] == 6): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/gouwuka.jpg" alt=""></div>
+        <?php elseif($_GET['p'] == 25 || $menus[$_GET['p']]['parentId'] == 25): ?>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/jingcaihuodong.jpg" alt=""></div>
+        <?php else: ?>
         <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/banner_know.jpg" alt=""></div>
-
-
+        <?php endif; ?>
+        <?php endif; ?>
         <div class="bodymain know clearfix">
 
             <div class="location ie6png">

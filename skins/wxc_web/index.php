@@ -70,11 +70,11 @@
     <div id="content">
         <div class="slide">
             <ul class="big" id="big_wrap">
-                <li style="z-index: 1; display: none;"> <a href="http://themixc.com/ShopDir/DMMagazine/index.aspx?id=963" target="_blank">  <img src="<?php echo $tag['path.skin']; ?>images/W01152244E117D0F5.jpg" alt=""></a></li>
-                <li style="z-index: 2; display: none;"><a href="http://www.themixc.com/wxc/MixClub/index.aspx" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/W1715342029EBAEE8.jpg" alt=""></a></li>
-                <li style="z-index: 9;"><a href="" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/W29093951F81D8736.jpg" alt=""></a></li>
-                <li style="display: none; z-index: 4;"><a href="" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/W29093925D69475F9.jpg" alt=""></a></li>
-                <li style="display: none; z-index: 5;"><a href="http://www.themixc.com/wxc/ShoppingCard/index.aspx" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/W2817255410AE23E5.jpg" alt=""></a></li>
+                <li style="z-index: 1; display: none;"> <a href="http://themixc.com/ShopDir/DMMagazine/index.aspx?id=963" target="_blank">  <img src="<?php echo $tag['path.skin']; ?>images/banner/01.jpg" alt=""></a></li>
+                <li style="z-index: 2; display: none;"><a href="http://www.themixc.com/wxc/MixClub/index.aspx" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/banner/02.jpg" alt=""></a></li>
+                <li style="z-index: 9;"><a href="" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/banner/03.jpg" alt=""></a></li>
+                <li style="display: none; z-index: 4;"><a href="" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/banner/04.jpg" alt=""></a></li>
+                <li style="display: none; z-index: 5;"><a href="http://www.themixc.com/wxc/ShoppingCard/index.aspx" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/banner/05.jpg" alt=""></a></li>
             </ul>
             <ul class="small ie6png" id="small">
                 <li class="">1</li>

@@ -24,6 +24,8 @@ if (in_array($data['id'], array(5,6,11,17,20,25,16,12,13,18,21,22,26,27,28,65,66
 	$url = 'javascript:void(0)';
 	$l_style= 'cursor:default';
 	$target = "";
+}else {
+	$l_style = 'cursor:pointer';
 }
 ?>
 <li><a href="<?php echo $url?>" <?php echo $target?> style="<?php echo $l_style; ?>"><?php echo $data['title'];?></a>
