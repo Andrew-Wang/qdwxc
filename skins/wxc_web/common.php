@@ -36,8 +36,7 @@
         <div class="weibo"><a target="_blank" href="http://e.weibo.com/qlmixc">
                 <img src="<?php echo $tag['path.skin']; ?>images/W091735305A098925.gif"></a>
         </div>
-        <div style="float:right;padding:5px 100px 0"><a target="_blank" href="javascript:void(0);">
-                <img src="<?php echo $tag['path.skin']; ?>images/weixin.gif"></a></div>
+
         <div class="search2">
             <div class="input_s">
                 <input type="text" id="searchtxt" name="text2" value="全站搜索" class="text" onblur="onKey(this,&#39;全站搜索&#39;,1)" onclick="onKey(this,&#39;全文搜索&#39;,0)"><input type="button" class="submit" id="searchglobal" value=" "></div>
@@ -75,12 +74,12 @@
         <?php elseif($_GET['p'] == 8 || $menus[$_GET['p']]['parentId'] == 8): ?>
         <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/huarunjituan.jpg" alt=""></div>
         <?php elseif($_GET['p'] == 9 || $menus[$_GET['p']]['parentId'] == 9): ?>
-        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/sd_huarunjituan.jpg" alt=""></div>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/sd_huarunzhidi.jpg" alt=""></div>
         <?php elseif($_GET['p'] == 42 || $menus[$_GET['p']]['parentId'] == 42): ?>
         <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/wanxiangjingcui.jpg" alt=""></div>
         <?php elseif($_GET['p'] == 43 || $menus[$_GET['p']]['parentId'] == 43): ?>
         <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/huarunzhongxin.jpg" alt=""></div>
-        <?php elseif($_GET['p'] == 10 || $menus[$_GET['p']]['parentId'] == 10): ?>
+        <?php elseif($_GET['p'] == 3 || $menus[$_GET['p']]['parentId'] == 3): ?>
         <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/wanxiangzhinan.jpg" alt=""></div>
         <?php elseif($_GET['p'] == 14 || $menus[$_GET['p']]['parentId'] == 14): ?>
         <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/jingcaihuodong.jpg" alt=""></div>

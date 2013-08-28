@@ -36,8 +36,7 @@
         <div class="weibo"><a target="_blank" href="http://e.weibo.com/qlmixc">
                 <img src="<?php echo $tag['path.skin']; ?>images/W091735305A098925.gif"></a>
         </div>
-        <div style="float:right;padding:5px 100px 0"><a target="_blank" href="javascript:void(0);">
-                <img src="<?php echo $tag['path.skin']; ?>images/weixin.gif"></a></div>
+       
         <div class="search2">
             <div class="input_s">
                 <input type="text" id="searchtxt" name="text2" value="全站搜索" class="text" onblur="onKey(this,&#39;全站搜索&#39;,1)" onclick="onKey(this,&#39;全文搜索&#39;,0)"><input type="button" class="submit" id="searchglobal" value=" "></div>
@@ -71,10 +70,10 @@
         <div class="slide">
             <ul class="big" id="big_wrap">
                 <li style="z-index: 1; display: none;"> <a href="http://themixc.com/ShopDir/DMMagazine/index.aspx?id=963" target="_blank">  <img src="<?php echo $tag['path.skin']; ?>images/banner/01.jpg" alt=""></a></li>
-                <li style="z-index: 2; display: none;"><a href="http://www.themixc.com/wxc/MixClub/index.aspx" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/banner/02.jpg" alt=""></a></li>
-                <li style="z-index: 9;"><a href="" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/banner/03.jpg" alt=""></a></li>
-                <li style="display: none; z-index: 4;"><a href="" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/banner/04.jpg" alt=""></a></li>
-                <li style="display: none; z-index: 5;"><a href="http://www.themixc.com/wxc/ShoppingCard/index.aspx" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/banner/05.jpg" alt=""></a></li>
+                <li style="z-index: 2; display: none;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/banner/02.jpg" alt=""></a></li>
+                <li style="z-index: 9;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/banner/03.jpg" alt=""></a></li>
+                <li style="display: none; z-index: 4;"><a href="<?php echo $tag['path.root']; ?>/?p=15"><img src="<?php echo $tag['path.skin']; ?>images/banner/04.jpg" alt=""></a></li>
+                <li style="display: none; z-index: 5;"><a href="<?php echo $tag['path.root']; ?>/?p=14"><img src="<?php echo $tag['path.skin']; ?>images/banner/05.jpg" alt=""></a></li>
             </ul>
             <ul class="small ie6png" id="small">
                 <li class="">1</li>
@@ -93,20 +92,20 @@
 
             <ul class="happy_nav">
                 <li>
-                    <h3>名品</h3>
-                    <p><a href="http://42.96.143.15/wxc/?p=7"><img src="<?php echo $tag['path.skin']; ?>images/index-1.jpg" alt=""></a></p>
+                    <h3>悦府</h3>
+                    <p><a href="<?php echo $tag['path.root']; ?>/?p=61"><img src="<?php echo $tag['path.skin']; ?>images/index-1.jpg" alt=""></a></p>
                 </li>
                 <li>
-                    <h3>美食</h3>
-                    <p><a href="http://42.96.143.15/wxc/?p=7"><img src="<?php echo $tag['path.skin']; ?>images/index-2.jpg" alt=""></a></p>
+                    <h3>华润大厦</h3>
+                    <p><a href="<?php echo $tag['path.root']; ?>/?p=62"><img src="<?php echo $tag['path.skin']; ?>images/index-2.jpg" alt=""></a></p>
                 </li>
                 <li>
-                    <h3>娱乐</h3>
-                    <p><a href="http://42.96.143.15/wxc/?p=7"><img src="<?php echo $tag['path.skin']; ?>images/index-3.jpg" alt=""></a></p>
+                    <h3>悦玺</h3>
+                    <p><a href="<?php echo $tag['path.root']; ?>/?p=63"><img src="<?php echo $tag['path.skin']; ?>images/index-3.jpg" alt=""></a></p>
                 </li>
                 <li>
-                    <h3>生活</h3>
-                    <p><a href="http://42.96.143.15/wxc/?p=7"><img src="<?php echo $tag['path.skin']; ?>images/index-4.jpg" alt=""></a></p>
+                    <h3>柏悦酒店</h3>
+                    <p><a href="<?php echo $tag['path.root']; ?>/?p=64"><img src="<?php echo $tag['path.skin']; ?>images/index-4.jpg" alt=""></a></p>
                 </li>
             </ul>
 

@@ -20,7 +20,7 @@ $select = $params['id']==$data['id']?$select:'';
 $target = $data['isTarget']?$target:'';
 
 // URGLY HACK CODE
-if (in_array($data['id'], array(5,6,11,17,20,25,16,12,13,18,21,22,26,27,28,65,66,67,68))) { 
+if (in_array($data['id'], array(5,6,17,20,25,16,12,13,18,21,22,26,27,28,65,66,67,68))) { 
 	$url = 'javascript:void(0)';
 	$l_style= 'cursor:default';
 	$target = "";
@@ -50,6 +50,16 @@ if (in_array($data['id'], array(5,6,11,17,20,25,16,12,13,18,21,22,26,27,28,65,66
 			<li class="subleft"><a href="?p=49&mdtp=8#a">万象城都市综合体</a></li>
 			<li class="subleft"><a href="?p=49&mdtp=9#a">住宅+欢乐颂</a></li>
 			
+		
+	<?php endif; ?>
+	<?php if ($_GET['p'] == $data['id'] && $_GET['p'] == '52'): ?>
+		
+			<li class="subleft"><a href="?p=52">青岛</a></li>
+			<li class="subleft"><a href="?p=52&mdtp=2">日照</a></li>
+			<li class="subleft"><a href="?p=52&mdtp=3">威海</a></li>
+			<li class="subleft"><a href="?p=52&mdtp=4">烟台</a></li>
+			<li class="subleft"><a href="?p=52&mdtp=5">济南</a></li>
+			<li class="subleft"><a href="?p=52&mdtp=6">临沂</a></li>
 		
 	<?php endif; ?>
 </li>

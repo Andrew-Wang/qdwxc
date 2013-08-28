@@ -10,6 +10,11 @@
     <script type="text/javascript" src="<?php echo $tag['path.skin']; ?>js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo $tag['path.skin']; ?>js/common.js"></script>
     <script type="text/javascript" src="<?php echo $tag['path.skin']; ?>js/slide.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="<?php echo $tag['path.skin']; ?>js/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="<?php echo $tag['path.skin']; ?>js/jquery.bxslider.css" rel="stylesheet" />
+    <link href="<?php echo $tag['path.skin']; ?>res/plug-in/myfocus/pattern/mF_pithy_tb.css" rel="stylesheet" />
     <!--[if IE 6]>
     <script type="text/javascript" src="/templates/mixc/wxc/scripts/DD_belatedPNG.js"></script>
     <script type="text/javascript">
@@ -30,20 +35,13 @@
             </ul>
         </div>
         <div class="links" id="hd-links">
-            <h4 class="ie6png">华润中心</h4>
-            <ul>
-                <li><a href="http://www.themixc.com/">华润中心</a></li>
-                <li><a href="http://www.themixc.com/wxc/index.aspx">万象城</a></li>
-                <li><a href="http://www.themixc.com/hrbuilding/index.aspx">华润大厦</a></li>
-                <li><a href="http://shenzhen.grand.hyatt.cn/hyatt/hotels/index.jsp" target="_blank">君悦酒店</a></li>
-                <li><a href="http://www.park-lane-manor.com/">幸福里</a></li>
-            </ul>
+            <a href="javascript:void(0);">登录</a>
+            <div style="position:absolute;right:0;top:0;"><a href="javascript:void(0);">注册</a></div>
         </div>
         <div class="weibo"><a target="_blank" href="http://e.weibo.com/qlmixc">
                 <img src="<?php echo $tag['path.skin']; ?>images/W091735305A098925.gif"></a>
         </div>
-        <div style="float:right;padding:5px 100px 0"><a target="_blank" href="javascript:void(0);">
-                <img src="<?php echo $tag['path.skin']; ?>images/weixin.gif"></a></div>
+ 
         <div class="search2">
             <div class="input_s">
                 <input type="text" id="searchtxt" name="text2" value="全站搜索" class="text" onblur="onKey(this,&#39;全站搜索&#39;,1)" onclick="onKey(this,&#39;全文搜索&#39;,0)"><input type="button" class="submit" id="searchglobal" value=" "></div>
@@ -75,7 +73,7 @@
     <!-- /header -->
 
     <div id="content">
-        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/wanxiangzhinan.jpg" alt=""></div>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/wanxiangzhinan.jpg" alt=""></div>
 
 
         <div class="bodymain know clearfix">
@@ -123,6 +121,7 @@
     }
     #guide_slider {
         width:720px;
+        position:relative;
     }
 </style>
 <script type="text/javascript">

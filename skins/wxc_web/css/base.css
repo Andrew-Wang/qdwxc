@@ -43,7 +43,7 @@ h4{font-size:12px;}
 #header .links li{height:22px;}
 #header .links a{display:block;height:22px;line-height:22px;padding-left:20px;color:#6D5835;background:url(images/icon_01.gif) no-repeat 10px 10px;}
 #header .links a:hover{color:#eee;}
-#header .weibo {position:absolute;z-index:999;top:5px;right:170px;width:100px;height:23px;}
+#header .weibo {position:absolute;z-index:999;top:5px;right:100px;width:100px;height:23px;}
 
 #header .search{position:absolute;z-index:998;width:315px;height:20px;top:32px;right:11px;}
 #header .select_s{float:left;width:135px;height:20px;color:#e4d5b8;}
