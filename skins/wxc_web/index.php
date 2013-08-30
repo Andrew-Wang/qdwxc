@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>万象城</title>
+    <title>青岛万象城</title>
     <meta name="robots" content="all,follow">
     <meta name="Keywords" content="万象城">
     <meta name="Description" content="万象城">
@@ -15,6 +15,7 @@
         DD_belatedPNG.fix('.ie6png');
     </script>
     <![endif]-->
+    <link rel="icon" type="image/x-icon" href="/wxc/favicon.ico" />
 </head>
 
 <body>
@@ -69,7 +70,7 @@
     <div id="content">
         <div class="slide">
             <ul class="big" id="big_wrap">
-                <li style="z-index: 1; display: none;"> <a href="http://themixc.com/ShopDir/DMMagazine/index.aspx?id=963" target="_blank">  <img src="<?php echo $tag['path.skin']; ?>images/banner/01.jpg" alt=""></a></li>
+                <li style="z-index: 1; display: none;"> <a href="<?php echo $tag['path.root']; ?>/?p=43">  <img src="<?php echo $tag['path.skin']; ?>images/banner/01.jpg" alt=""></a></li>
                 <li style="z-index: 2; display: none;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/banner/02.jpg" alt=""></a></li>
                 <li style="z-index: 9;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/banner/03.jpg" alt=""></a></li>
                 <li style="display: none; z-index: 4;"><a href="<?php echo $tag['path.root']; ?>/?p=15"><img src="<?php echo $tag['path.skin']; ?>images/banner/04.jpg" alt=""></a></li>
@@ -92,32 +93,31 @@
 
             <ul class="happy_nav">
                 <li>
-                    <h3>悦府</h3>
-                    <p><a href="<?php echo $tag['path.root']; ?>/?p=61"><img src="<?php echo $tag['path.skin']; ?>images/index-1.jpg" alt=""></a></p>
+                    <h3>万象荟萃</h3>
+                    <p><a href="<?php echo $tag['path.root']; ?>/?p=42"><img src="<?php echo $tag['path.skin']; ?>images/index-1.jpg" alt=""></a></p>
                 </li>
                 <li>
-                    <h3>华润大厦</h3>
-                    <p><a href="<?php echo $tag['path.root']; ?>/?p=62"><img src="<?php echo $tag['path.skin']; ?>images/index-2.jpg" alt=""></a></p>
+                    <h3>青岛华润中心</h3>
+                    <p><a href="<?php echo $tag['path.root']; ?>/?p=43"><img src="<?php echo $tag['path.skin']; ?>images/index-2.jpg" alt=""></a></p>
                 </li>
                 <li>
-                    <h3>悦玺</h3>
-                    <p><a href="<?php echo $tag['path.root']; ?>/?p=63"><img src="<?php echo $tag['path.skin']; ?>images/index-3.jpg" alt=""></a></p>
+                    <h3>叶锦添华服</h3>
+                    <p><img src="<?php echo $tag['path.skin']; ?>images/index-3.jpg" alt=""></p>
                 </li>
                 <li>
-                    <h3>柏悦酒店</h3>
-                    <p><a href="<?php echo $tag['path.root']; ?>/?p=64"><img src="<?php echo $tag['path.skin']; ?>images/index-4.jpg" alt=""></a></p>
+                    <h3>微纪录片</h3>
+                    <p><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/index-4.jpg" alt=""></a></p>
                 </li>
             </ul>
 
             <div class="dm_box">
                 <h3>DM杂志</h3>
-                <a href="http://www.themixc.com/wxc/DMMagazine/index.aspx" class="more" target="_blank">更多&gt;</a>
+                <a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=2" class="more">更多&gt;</a>
 
-                <a href="#" target="_blank"><img src="<?php echo $tag['path.skin']; ?>images/H01150925D48AAE7E.jpg" alt="" class="image"></a>
+                <a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=2"><img src="<?php echo $tag['path.skin']; ?>images/H01150925D48AAE7E.jpg" alt="" class="image"></a>
                 <div class="dm_box_r">
-                    <h4 class="h4t"><a href="http://www.themixc.com/ShopDir/DMMagazine/index.aspx?id=963" target="_blank">2013年8月刊</a></h4>
-                    <h4 class="h4t"><a href="http://www.themixc.com/ShopDir/DMMagazine/index.aspx?id=958" target="_blank">2013年7月份DM</a></h4>
-                    <h4 class="h4t"><a href="http://www.themixc.com/ShopDir/DMMagazine/index.aspx?id=940" target="_blank">2013年6月刊</a></h4>
+                    <h4 class="h4t"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=2" title="齐鲁文脉，跨越千年的行走">齐鲁文脉，跨越..</a></h4>
+                    <h4 class="h4t"><a href="<?php echo $tag['path.root']; ?>/?p=14">德国时尚探寻之旅</a></h4>
                 </div>
             </div>
         </div>

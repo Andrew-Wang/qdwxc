@@ -2,7 +2,7 @@
 <!-- saved from url=(0042)http://www.themixc.com/wxc/MixClub/21.aspx -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title> 万象城</title>
+    <title> 青岛万象城</title>
     <meta name="robots" content="all,follow">
     <meta name="Keywords" content="华润中心万象城,华润中心,万象城">
     <meta name="Description" content="万象城，中国购物中心行业的领跑者，倡导国际化的消费理念，彰显时尚品味与优雅格调，引领全新的生活方式与消费潮流。在这个18.8万平方米的时尚殿堂，品牌零售、特色餐饮交相辉映，娱乐休闲、文化风情异彩纷呈。前沿魅力、和谐体验，尽在华润·万象城。">
@@ -16,6 +16,7 @@
         DD_belatedPNG.fix('.ie6png');
     </script>
     <![endif]-->
+    <link rel="icon" type="image/x-icon" href="/wxc/favicon.ico" />
 </head>
 
 <body>

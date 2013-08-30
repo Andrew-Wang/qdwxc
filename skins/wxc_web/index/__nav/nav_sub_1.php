@@ -20,7 +20,7 @@ $select = $params['id']==$data['id']?$select:'';
 $target = $data['isTarget']?$target:'';
 
 // URGLY HACK CODE
-if (in_array($data['id'], array(5,6,17,20,25,16,12,13,18,21,22,26,27,28,65,66,67,68))) { 
+if (in_array($data['id'], array(5,6,11,15,17,20,25,16,12,13,18,21,22,26,27,28,65,66,67,68,76))) { 
 	$url = 'javascript:void(0)';
 	$l_style= 'cursor:default';
 	$target = "";
@@ -55,11 +55,25 @@ if (in_array($data['id'], array(5,6,17,20,25,16,12,13,18,21,22,26,27,28,65,66,67
 	<?php if ($_GET['p'] == $data['id'] && $_GET['p'] == '52'): ?>
 		
 			<li class="subleft"><a href="?p=52">青岛</a></li>
+			<li class="subleft"><a href="?p=52&mdtp=7">淄博</a></li>
 			<li class="subleft"><a href="?p=52&mdtp=2">日照</a></li>
 			<li class="subleft"><a href="?p=52&mdtp=3">威海</a></li>
 			<li class="subleft"><a href="?p=52&mdtp=4">烟台</a></li>
 			<li class="subleft"><a href="?p=52&mdtp=5">济南</a></li>
 			<li class="subleft"><a href="?p=52&mdtp=6">临沂</a></li>
+			<li class="subleft"><a href="?p=52&mdtp=8">太原</a></li>
+		
+	<?php endif; ?>
+
+	<?php if ($_GET['p'] == $data['id'] && $_GET['p'] == '46'): ?>
+		
+			<li class="subleft"><a href="?p=46&mdtp=2">消费品</a></li>
+			<li class="subleft"><a href="?p=46&mdtp=3">电力</a></li>
+			<li class="subleft"><a href="?p=46&mdtp=4">地产</a></li>
+			<li class="subleft"><a href="?p=46&mdtp=5">水泥</a></li>
+			<li class="subleft"><a href="?p=46&mdtp=6">燃气</a></li>
+			<li class="subleft"><a href="?p=46&mdtp=7">医药</a></li>
+			<li class="subleft"><a href="?p=46&mdtp=8">金融</a></li>
 		
 	<?php endif; ?>
 </li>
