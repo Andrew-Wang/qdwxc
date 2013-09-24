@@ -35,7 +35,7 @@
 			<div style="position:absolute;right:0;top:0;"><a href="javascript:void(0);">注册</a></div>
         </div>
         <div class="weibo"><a target="_blank" href="http://e.weibo.com/qlmixc">
-                <img src="<?php echo $tag['path.skin']; ?>images/W091735305A098925.gif"></a>
+                <img src="<?php echo $tag['path.skin']; ?>images/sina_weibo.gif"></a>
         </div>
        
         <div class="search2">
@@ -193,6 +193,13 @@
         //window.open( "/ShopDir/DMMagazine/index.aspx?id=" + id);
     });
 </script>
-
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=4&amp;pos=right&amp;uid=3814934" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+var bds_config={"bdTop":274};
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END -->
 
 </body></html>
