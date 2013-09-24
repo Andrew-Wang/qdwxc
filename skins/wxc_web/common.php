@@ -73,7 +73,7 @@
         <?php if($_GET['p'] == 7 || $menus[$_GET['p']]['parentId'] == 7): ?>
         <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/huarunjituan.jpg" alt=""></div>
         <?php elseif($_GET['p'] == 8 || $menus[$_GET['p']]['parentId'] == 8): ?>
-        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/huarunjituan.jpg" alt=""></div>
+        <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/huarunzhidi.jpg" alt=""></div>
         <?php elseif($_GET['p'] == 9 || $menus[$_GET['p']]['parentId'] == 9): ?>
         <div class="banner"><img src="<?php echo $tag['path.skin']; ?>images/inside_banner/sd_huarunzhidi.jpg" alt=""></div>
         <?php elseif($_GET['p'] == 42 || $menus[$_GET['p']]['parentId'] == 42): ?>

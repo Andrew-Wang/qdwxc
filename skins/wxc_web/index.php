@@ -71,10 +71,10 @@
         <div class="slide">
             <ul class="big" id="big_wrap">
                 <li style="z-index: 1; display: none;"> <a href="<?php echo $tag['path.root']; ?>/?p=43">  <img src="<?php echo $tag['path.skin']; ?>images/banner/01.jpg" alt=""></a></li>
-                <li style="z-index: 2; display: none;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/banner/02.jpg" alt=""></a></li>
-                <li style="z-index: 9;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/banner/03.jpg" alt=""></a></li>
-                <li style="display: none; z-index: 4;"><a href="<?php echo $tag['path.root']; ?>/?p=15"><img src="<?php echo $tag['path.skin']; ?>images/banner/04.jpg" alt=""></a></li>
-                <li style="display: none; z-index: 5;"><a href="<?php echo $tag['path.root']; ?>/?p=14"><img src="<?php echo $tag['path.skin']; ?>images/banner/05.jpg" alt=""></a></li>
+                <li style="z-index: 2; display: none;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=5"><img src="<?php echo $tag['path.skin']; ?>images/banner/02.jpg" alt=""></a></li>
+                <li style="z-index: 9;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=4"><img src="<?php echo $tag['path.skin']; ?>images/banner/03.jpg" alt=""></a></li>
+                <li style="display: none; z-index: 4;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/banner/04.jpg" alt=""></a></li>
+                <li style="display: none; z-index: 5;"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=2"><img src="<?php echo $tag['path.skin']; ?>images/banner/05.jpg" alt=""></a></li>
             </ul>
             <ul class="small ie6png" id="small">
                 <li class="">1</li>
@@ -106,18 +106,18 @@
                 </li>
                 <li>
                     <h3>微纪录片</h3>
-                    <p><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/index-4.jpg" alt=""></a></p>
+                    <p><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=4"><img src="<?php echo $tag['path.skin']; ?>images/index-4.jpg" alt=""></a></p>
                 </li>
             </ul>
 
             <div class="dm_box">
                 <h3>DM杂志</h3>
-                <a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=2" class="more">更多&gt;</a>
+                <a href="<?php echo $tag['path.root']; ?>/?p=14" class="more">更多&gt;</a>
 
-                <a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=2"><img src="<?php echo $tag['path.skin']; ?>images/H01150925D48AAE7E.jpg" alt="" class="image"></a>
+                <a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3"><img src="<?php echo $tag['path.skin']; ?>images/H01150925D48AAE7E.jpg" alt="" class="image"></a>
                 <div class="dm_box_r">
-                    <h4 class="h4t"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=2" title="齐鲁文脉，跨越千年的行走">齐鲁文脉，跨越..</a></h4>
-                    <h4 class="h4t"><a href="<?php echo $tag['path.root']; ?>/?p=14">德国时尚探寻之旅</a></h4>
+                    <h4 class="h4t"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=3" title="齐鲁文脉，跨越千年的行走">齐鲁文脉，跨越..</a></h4>
+                    <h4 class="h4t"><a href="<?php echo $tag['path.root']; ?>/?p=14&mdtp=2">德国时尚探寻之旅</a></h4>
                 </div>
             </div>
         </div>

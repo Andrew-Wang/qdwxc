@@ -20,7 +20,7 @@ $target = $data['isTarget']?$target:'';
 // URGLY HACK CODE
 if (in_array($data['id'], array(5,6,25))) { 
   $url = 'javascript:void(0)';
-  $l_style= 'cursor:default';
+  $l_style= 'cursor:default;color:darkgray;';
   $target = "";
 }else {
   $l_style = 'cursor:pointer';

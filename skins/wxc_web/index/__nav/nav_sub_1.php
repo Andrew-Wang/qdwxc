@@ -22,7 +22,7 @@ $target = $data['isTarget']?$target:'';
 // URGLY HACK CODE
 if (in_array($data['id'], array(5,6,11,15,17,20,25,16,12,13,18,21,22,26,27,28,65,66,67,68,76))) { 
 	$url = 'javascript:void(0)';
-	$l_style= 'cursor:default';
+	$l_style= 'cursor:default;color:darkgray;';
 	$target = "";
 }else {
 	$l_style = 'cursor:pointer';
@@ -74,6 +74,13 @@ if (in_array($data['id'], array(5,6,11,15,17,20,25,16,12,13,18,21,22,26,27,28,65
 			<li class="subleft"><a href="?p=46&mdtp=6">燃气</a></li>
 			<li class="subleft"><a href="?p=46&mdtp=7">医药</a></li>
 			<li class="subleft"><a href="?p=46&mdtp=8">金融</a></li>
+		
+	<?php endif; ?>
+
+	<?php if ($_GET['p'] == $data['id'] && $_GET['p'] == '78'): ?>
+		
+			<li class="subleft"><a href="javascript:void(0);" style="cursor:default;">公司新闻</a></li>
+			<li class="subleft"><a href="?p=78">媒体报道</a></li>
 		
 	<?php endif; ?>
 </li>
