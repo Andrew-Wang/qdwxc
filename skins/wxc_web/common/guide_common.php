@@ -40,7 +40,7 @@
             <div style="position:absolute;right:0;top:0;"><a href="javascript:void(0);">注册</a></div>
         </div>
         <div class="weibo"><a target="_blank" href="http://e.weibo.com/qlmixc">
-                <img src="<?php echo $tag['path.skin']; ?>images/W091735305A098925.gif"></a>
+                <img src="<?php echo $tag['path.skin']; ?>images/sina_weibo.gif"></a>
         </div>
  
         <div class="search2">
